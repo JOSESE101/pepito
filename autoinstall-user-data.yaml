@@ -5,11 +5,6 @@ autoinstall:
   source:
     id: ubuntu-server-minimal
 
-  locale: es_ES.UTF-8
-  keyboard:
-    layout: es
-  timezone: Europe/Rome
-
   network:
     version: 2
     ethernets:
@@ -18,16 +13,8 @@ autoinstall:
 
   identity:
     username: usuario
-    hostname: usuario
+    hostname: usuarioubuntu
     password: 'usuario'
 
   packages:
-    - git
     - python3-pip
-
-  snaps:
-    - name: pycharm-community
-      channel: stable 
-      classic: true
-
-  shutdown: reboot
