@@ -1,9 +1,9 @@
 #cloud-config
 autoinstall:
-  version: 1
-
-  source:
-    id: ubuntu-server-minimal
+  locale: es_ES.UTF-8
+  keyboard:
+    layout: es
+  timezone: Europe/Madrid
 
   network:
     version: 2
@@ -15,6 +15,3 @@ autoinstall:
     username: usuario
     hostname: usuarioubuntu
     password: 'usuario'
-
-  packages:
-    - python3-pip
