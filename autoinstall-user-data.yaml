@@ -13,6 +13,6 @@ autoinstall:
         dhcp4: true
 
   identity:
-    username: usuario
-    hostname: usuarioubuntu
-    password: 'usuario'
+    username: a
+    hostname: a
+    password: 'a'
